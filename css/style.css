@@ -13,3 +13,10 @@
 .bigger_font {
   font-size: 24px;
 }
+#page3 {
+  display: none;
+}
+.center_font {
+  text-align: center;
+}
+ul {list-style-type: square;}
