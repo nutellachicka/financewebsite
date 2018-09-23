@@ -46,6 +46,9 @@ function show_company_accounts() {
     document.getElementById("company_accounts_no").style.display = "block";
     document.getElementById("company_accounts_yes").style.display = "none";
   }
+}
 
-
+function show_page5() {
+  document.getElementById("page4").style.display = "none";
+  document.getElementById("page5").style.display = "block";
 }

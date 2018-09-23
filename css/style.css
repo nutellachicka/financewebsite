@@ -23,6 +23,9 @@ ul {
 #page4 {
   display: none;
 }
+#page5 {
+  display: none;
+}
 
 /* yes/no popups */
 #emergency_info_yes, #emergency_info_no {
@@ -33,4 +36,14 @@ ul {
 }
 #company_accounts_yes, #company_accounts_no{
   display: none;
+}
+
+#title_container {
+  text-align: center;
+  margin-top: 60px;
+}
+#title {
+  width: 300px;
+  display: inline-block;
+  text-align: left;
 }
