@@ -1,3 +1,4 @@
+// this function hides the text that shows up whenever you choose "yes" or "no"
 function show_emergency_info() {
   var emergency_fund = document.getElementById("emergency_fund");
 
@@ -9,7 +10,7 @@ function show_emergency_info() {
     document.getElementById("emergency_info_yes").style.display = 'none';
   }
 }
-
+// this function brings up the hidden text that asks you whether you understand your monthly expenses and hides the other option
 function show_monthly_expenses() {
   var monthly_expenses = document.getElementById("monthly_expenses")
   if (monthly_expenses.checked == true) {
@@ -20,7 +21,7 @@ function show_monthly_expenses() {
     document.getElementById("monthly_expenses_info_yes").style.display = 'none';
   }
 }
-
+// this function brings up content on page2 and hides page1 content
 function show_page2() {
   document.getElementById("page1").style.display = "none";
   document.getElementById("page2").style.display = "block";
