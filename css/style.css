@@ -1,0 +1,12 @@
+#emergency_info_yes, #emergency_info_no {
+  display: none;
+}
+#monthly_expenses_info_yes, #monthly_expenses_info_no{
+  display: none;
+}
+#page1 {
+  display: block;
+}
+#page2 {
+  display: none;
+}
