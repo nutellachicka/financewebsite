@@ -31,3 +31,21 @@ function show_page3() {
   document.getElementById("page2").style.display = "none";
   document.getElementById("page3").style.display = "block";
 }
+
+function show_page4() {
+  document.getElementById("page3").style.display = "none";
+  document.getElementById("page4").style.display = "block";
+}
+
+function show_company_accounts() {
+  var sponsored_accounts = document.getElementById("company_accounts")
+  if (company_accounts.checked == true) {
+    document.getElementById("company_accounts_yes").style.display = "block";
+    document.getElementById("company_accounts_no").style.display = "none";
+  } else {
+    document.getElementById("company_accounts_no").style.display = "block";
+    document.getElementById("company_accounts_yes").style.display = "none";
+  }
+
+
+}

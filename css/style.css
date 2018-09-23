@@ -1,22 +1,36 @@
-#emergency_info_yes, #emergency_info_no {
-  display: none;
+
+/* styles */
+.bigger_font {
+  font-size: 24px;
 }
-#monthly_expenses_info_yes, #monthly_expenses_info_no{
-  display: none;
+.center_font {
+  text-align: center;
 }
+ul {
+  list-style-type: square;
+}
+
+/* pages */
 #page1 {
   display: block;
 }
 #page2 {
   display: none;
 }
-.bigger_font {
-  font-size: 24px;
-}
 #page3 {
   display: none;
 }
-.center_font {
-  text-align: center;
+#page4 {
+  display: none;
 }
-ul {list-style-type: square;}
+
+/* yes/no popups */
+#emergency_info_yes, #emergency_info_no {
+  display: none;
+}
+#monthly_expenses_info_yes, #monthly_expenses_info_no{
+  display: none;
+}
+#company_accounts_yes, #company_accounts_no{
+  display: none;
+}
